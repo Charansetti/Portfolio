@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="titleSection">
+        <div>Setti Charan Sai</div>
+        <div><button class="menu-button" onclick="toggleMenu()">☰</button></div>
+
+        <div class="linkSection" id="mobileLinks">
+          <div><a href="#aboutMe">About Me</a></div>
+          <div><a href="#projects">Projects</a></div>
+          <div><a href="#skills">Skills</a></div>
+          <div><a href="#contact">Contact</a></div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div>
+      <header>
+        <section>
+          <h2>About Me</h2>
+          <div id="aboutMe">
+            <div class="aboutMeContent">
+              <p>
+                Passionate developer skilled in Salesforce and web development,
+                focused on crafting clean, scalable, and user-friendly
+                solutions. I enjoy solving real-world problems—whether it's
+                through custom Salesforce apps or responsive websites. Always
+                learning. Always building. <br /><br />
+                Big-time anime lover (Zoro fan forever ⚔️) and Free Fire warrior
+                in my off time 🎮💥
+              </p>
+            </div>
+            <div class="aboutMeimage">
+              <img src="./resources/myImage.jpeg" alt="charan sai" />
+            </div>
+          </div>
+        </section>
+        <br />
+        <section>
+          <h2 id="projects">Projects</h2>
+          <div class="slider-wrapper">
+            <button class="nav-button" onclick="prevCard()">← Prev</button>
+
+            <div class="slider-container">
+              <div class="slider" id="slider">
+                <div class="card">
+                  <h2>Leap Easy</h2>
+                  <p>
+                    At LeapEasy, I work on automating and optimizing insurance
+                    workflows using Salesforce. My key project involves building
+                    intelligent pricing and enrollment systems for student
+                    housing, integrating complex metadata-driven rules with
+                    clean API responses.
+                  </p>
+                </div>
+                <div class="card">
+                  <h2>
+                    IDENTIFYING MISSING CHILD USING MULTICLASS SVM AND CNN
+                  </h2>
+                  <p>
+                    By using VGG-Face CNN for feature extraction and an SVM
+                    classifier for identifying missing children through facial
+                    recognition. Users can upload suspicious child photos, which
+                    are automatically matched against a database of missing
+                    children. <br />
+                    📝 This research has been officially published.
+                    <a
+                      href="./resources/IJCRT Published Certificate.pdf"
+                      target="_blank"
+                      >Certificate of Publication</a
+                    >
+                  </p>
+                </div>
+                <div class="card">
+                  <h2>Handwritten Digit Recognition Using Machine Learning</h2>
+                  <p>
+                    Implemented using the MNIST dataset, this project utilizes a
+                    Convolutional Neural Network (CNN) built with Python to
+                    recognize and classify handwritten digits (0–9). The model
+                    learns from thousands of labeled digit images to accurately
+                    identify new handwritten inputs. It's an ideal application
+                    of deep learning for image classification tasks and
+                    demonstrates the power of CNNs in pattern recognition.
+                  </p>
+                </div>
+                <div class="card">
+                  <h2>Association Rule Mining Using ECLAT Algorithm</h2>
+                  <p>
+                    data mining technique used to discover frequent itemsets in
+                    transactional datasets. Unlike Apriori, ECLAT uses a
+                    vertical data format (item → list of transaction IDs), which
+                    makes it faster and more memory-efficient for dense
+                    datasets. It works by intersecting transaction ID sets to
+                    find frequent patterns. Once frequent itemsets are found,
+                    association rules can be generated to show relationships
+                    like “if A and B are bought, C is likely too.” ECLAT is best
+                    suited for scenarios with large volumes of itemset data
+                    💻✨.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="nav-button" onclick="nextCard()">Next →</button>
+          </div>
+        </section>
+        <br />
+        <section>
+          <div>
+            <h2>Skills</h2>
+            <div class="skillSection">
+              <div id="skills">
+                <div class="skill html">
+                  <img src="./resources/html.png" alt="html" />
+                </div>
+                <div class="skill css">
+                  <img src="./resources/css-3.png" alt="css" />
+                </div>
+                <div class="skill js">
+                  <img src="./resources/js-file.png" alt="js" />
+                </div>
+                <div class="skill react">
+                  <img src="./resources/react.png" alt="react" />
+                </div>
+                <div class="skill node">
+                  <img src="./resources/node-js.png" alt="node" />
+                </div>
+                <div class="skill salesforce">
+                  <img src="./resources/salesforce.png" alt="salesforce" />
+                </div>
+                <div class="skill git">
+                  <img src="./resources/git.png" alt="git" />
+                </div>
+                <div class="skill github">
+                  <img src="./resources/github-sign.png" alt="github" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br />
+        <section>
+          <h2>Contact</h2>
+          <div id="contact">
+            <p>Have an interesting project? I would love to hear about it!</p>
+            <div class="contactSection">
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/charan-sai-setti-9129b9224/"
+                >
+                  <img src="./resources/linkedin.png" type="linkedin" />
+                </a>
+              </div>
+              <div>
+                <a href="mailto:setticharansai17@gmail.com">
+                  <img src="./resources/email.png" type="email" />
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/Charansetti">
+                  <img src="/resources/github-sign.png" alt="github" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+    </div>
+    <script src="index.js" async defer></script>
+    <footer>@CharanSai</footer>
+  </body>
+</html>
